@@ -5,6 +5,7 @@ const Box = ({ title, item, result }) => {
     <div className={result === "win" ? "box_win" : result === "lose" ? "box_lose" : "box"}>
       <h1>{title}</h1>
       <img
+          alt={item?.name}
         className="item-img"
         src={item?.img}
       />
