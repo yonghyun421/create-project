@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 const Box = ({ title, item, result }) => {
   return (
