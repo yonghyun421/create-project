@@ -55,7 +55,7 @@ function App() {
     <div>
       <div className="main">
         <Box title="YOU" item={userSelect} result={result} />
-        <Box title="COMPUTER" item={computerSelect} result={result === "win" ? "lose" : result === "lose" ? "win" : "tie"} />
+        <Box title="COMPUTER" item={computerSelect} result={result === "win" ? "lose" : result === "lose" ? "win" : result ? "tie" : ''} />
       </div>
       <div className="main">
         <button onClick={() => play("scissors")}>가위</button>
