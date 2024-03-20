@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Box from "./component/Box";
+import "./App.css";
 
 const choice = {
     rock : {
